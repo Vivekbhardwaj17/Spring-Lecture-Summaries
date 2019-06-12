@@ -1,0 +1,93 @@
+Good Design?
+Ans:which take less time and requires less cost to change it.
+Required things to make good design:
+1. can't do it in first  step.
+  Do not think that you can make  good design in your first attempt it takes time.
+2.having  the ego.
+ You should be positive towards your desingn it gives you motivation.
+3.be unemotinal.
+ 
+Who are dangerous?
+1. Those who dont follow instructions.
+2. Those who only follow  instructions.
+
+Always take time to review your design and code.
+
+# KISS: Keep It Simple and Stupid
+1.simple keep you focuse.
+2.simple  solves only real problems that we know about .
+3.simple fails  less. 
+4.Simple  is easy to understand.
+
+
+Complexity of design or code:
+1. Inherent: from problem domain.
+2.Accidental: when we choose wrong solution for  problem.
+
+
+A good design is the one that hides inherent  complexity and eliminates the  accidental complexity.
+
+# YAGNI   principle :
+( You Are Goona Need It ? )
+1. It helps in to postone the features that are costly or  not useful today.
+
+
+Cohesion:
+focussed on doing  one  thing.
+
+Coupling :
+What you depends upon .
+eg. Inheritance
+
+Note: try to see it you     remove  coupling 
+
+
+# Knock  Out Before mock Out
+Make it loose instead of tight.
+
+
+Depending class --tight coupling
+Depending  interface-- loose coupling.
+   
+
+A good design has  high cohesion and low coupling.
+
+
+# DRY:  Dont Repeat Yourself
+
+Dont  duplicate code and  effort
+
+It reduces cost of development.
+
+
+Long Methods:
+hard to test.
+hard to  read.
+hard to reuse.
+leads to duplicates.
+lack cohesion
+high coupling
+
+# SLAP Single level of abstraction
+
+try to make  code become comment
+  
+
+# OCP  : Open closed Principle
+Software should open for  extension but closed for modification.
+1. Abstraction and  Polymorphism are the  key to  make  this happen.
+
+Do not overuse inheritance 
+It only used for substituability ,
+If object of class B use anywhere  object of A then use Inheritance.
+If object of B should use an object of A use composition and deligation.
+
+Try not to use Inheritance.
+   
+
+
+ 
+
+
+
+  
